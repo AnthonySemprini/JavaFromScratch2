@@ -4,13 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d4e87fa-7131-438a-864f-bca43c2b02e0" name="Changes" comment="les boucles">
+    <list default="true" id="4d4e87fa-7131-438a-864f-bca43c2b02e0" name="Changes" comment="creation d'une class player et creation d'un objet avec ses gettter et setter">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Player.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,7 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1725824373696</updated>
       <workItem from="1725824374740" duration="19000" />
-      <workItem from="1725824397915" duration="4105000" />
+      <workItem from="1725824397915" duration="6237000" />
     </task>
     <task id="LOCAL-00001" summary="first">
       <option name="closed" value="true" />
@@ -89,7 +98,15 @@
       <option name="project" value="LOCAL" />
       <updated>1725828083682</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="creation d'une class player et creation d'un objet avec ses gettter et setter">
+      <option name="closed" value="true" />
+      <created>1725829466729</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1725829466729</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,14 +115,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first" />
     <MESSAGE value="les boucles" />
-    <option name="LAST_COMMIT_MESSAGE" value="les boucles" />
+    <MESSAGE value="creation d'une class player et creation d'un objet avec ses gettter et setter" />
+    <option name="LAST_COMMIT_MESSAGE" value="creation d'une class player et creation d'un objet avec ses gettter et setter" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/Main.java</url>
-          <line>60</line>
+          <line>78</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
       </breakpoints>

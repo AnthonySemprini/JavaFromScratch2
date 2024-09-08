@@ -1,35 +1,39 @@
 public class Player {
 
-    private String name = "Anthony";
-    private double ptsLife = 20;
-    private double ptsAttack = 0.5;
+    private String name;
+    private double health;
+    private double attack;
 
-    public Player() {
-
+    public Player(String name, double health, double attack) {
+        this.name = name;
+        this.health = health;
+        this.attack = attack;
     }
 
 
     public String getName() {
         return name;
     }
-
+    public void damage(double damage) {
+        this.health -= damage;
+    }
     public void setName(String name) {
         this.name = name;
     }
 
-    public double getPtsLife() {
-        return ptsLife;
+    public double getHealth() {
+        return health;
     }
 
-    public void setPtsLife(double ptsLife) {
-        this.ptsLife = ptsLife;
+    public void setHealth(double health) {
+        this.health = health;
     }
 
-    public double getPtsAttack() {
-        return ptsAttack;
+    public double getAttack() {
+        return attack;
     }
 
-    public void setPtsAttack(double ptsAttack) {
-        this.ptsAttack = ptsAttack;
+    public void setAttack(double attack) {
+        this.attack = attack;
     }
 }

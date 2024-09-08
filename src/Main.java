@@ -57,10 +57,23 @@ public class Main {
         sendMessage(" test");
         sendMessage("777");
 
+        Player player1 = new Player("zorro", 300, 4);
+        Player player2 = new Player("luffy", 400, 5);
+
+        System.out.println("name : " + player1.getName());
+        System.out.println("health : " + player1.getHealth());
+        System.out.println("attack : " + player1.getAttack());
+        player1.damage(5);
+        System.out.println("health : " + player1.getHealth());
+        System.out.println("name : " + player2.getName());
+        System.out.println("health : " + player2.getHealth());
+        player2.damage(player1.getAttack());
+        System.out.println("health : " + player2.getHealth());
+        System.out.println("attack : " + player2.getAttack());
     }
+
     private static void sendMessage(String message){
         System.out.println("Hello World" + message);
     }
-
 
 }
