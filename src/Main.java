@@ -27,9 +27,30 @@ public class Main {
         System.out.println(num[0][2]);
 
         /* Mettre element String dans un tableau*/
-        String pseudoss = "elf, sorcier, troll, killer";
+        String pseudoss = "elf,sorcier,troll,killer";
         String[] pseudos = pseudoss.split(",");
         System.out.println(pseudos.length);
         System.out.println(pseudos[0]);
+        System.out.println(" Fin des tab");
+
+        /* Boucles */
+        for (int i = 0; i < 10; i++){
+            System.out.println("ceci est le tour de la boucle " + i);
+        }
+        int[] notes = {9,6,5,4};
+        int calc = 0;
+
+        for( int note : notes ){
+            calc = calc + note;
+        }
+
+        System.out.println("la moyenne est de " + (calc /notes.length));
+
+        int i = 0;
+        while (i != 7){
+            i++;
+            System.out.println("cheese / " + i);
+        }
+
     }
 }
