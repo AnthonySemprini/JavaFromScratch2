@@ -31,7 +31,7 @@ public class Main {
         String[] pseudos = pseudoss.split(",");
         System.out.println(pseudos.length);
         System.out.println(pseudos[0]);
-        System.out.println(" Fin des tab");
+        System.out.println("   Fin des tab");
 
         /* Boucles */
         for (int i = 0; i < 10; i++){
@@ -52,5 +52,15 @@ public class Main {
             System.out.println("cheese / " + i);
         }
 
+        System.out.println("   Fin des boucles");
+
+        sendMessage(" test");
+        sendMessage("777");
+
     }
+    private static void sendMessage(String message){
+        System.out.println("Hello World" + message);
+    }
+
+
 }
